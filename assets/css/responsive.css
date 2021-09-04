@@ -1,0 +1,82 @@
+/* PC */
+@media (min-width:1024px) {
+    /* #nav > li{
+        float: left;
+    } */
+}
+
+/* Tablet & Mobile */
+@media (max-width: 1023px) {
+    #footer .social-media {
+        font-size: 36px;
+    } 
+
+    #footer .social-media a{
+        margin: 0 4px;
+    }
+
+    .contact-form .form-control{
+        font-size: 15px;
+    }
+    
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    #nav {
+        display: block;
+    }
+
+    #nav > li{
+        display: block;
+        float: none;
+    }
+
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a{
+        color: #fff;
+        padding: 4px 32px;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+
+    #slider .text-content{
+        display: none;
+    }
+
+    #mobile-menu{
+        display: block;
+    }
+
+    .tour-places .info-place .info-place-heading{
+        height: 42px;
+    }
+
+    .s-full-width,
+    .s-col-full{
+        width: 100%;
+    }
+
+    .s-mt-8{
+        margin-top: 8px;
+    }
+}
